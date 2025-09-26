@@ -20,9 +20,6 @@
     <organization>
         <name>OWASP Foundation</name>
         <url>https://owasp.org/</url>
-        <properties>
-        <sonar.organization>onemerguezman</sonar.organization>
-        </properties>
     </organization>
 
     <licenses>
@@ -1230,6 +1227,7 @@
     <properties>
         <failOnMissingWebXml>false</failOnMissingWebXml>
         <java.target>8</java.target>
+        <sonar.organization>onemerguezman</sonar.organization>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <maven.war.webxml>${basedir}/src/config/web.xml</maven.war.webxml>
